@@ -141,11 +141,11 @@ if (moment().isAfter(moment().hour(11))) {
 }
 if (moment().isBefore(moment().hour(11))) {
   const eleven = document.getElementById("eleven");
-  noon.classList.add("future");
+  eleven.classList.add("future");
 }
 if (moment().isSame(moment().hour(11))) {
-  const noon = document.getElementById("noon");
-  noon.classList.add("present");
+  const noon = document.getElementById("eleven");
+  eleven.classList.add("present");
 }
 
 //noon
